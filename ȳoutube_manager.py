@@ -58,7 +58,7 @@ def main():
         print("3. Update a youtube details")
         print('4. Dleted a youtube videos')
         
-        choice = input("Enter your choice: ")
+        choice = input("Enter your choices: ")
 
         match choice:
             case "1":
@@ -70,7 +70,7 @@ def main():
             case 4:
                 delete_video(videos)        
             case _:
-                print("Inavlid Choice")
+                print("Inavlid selections")
 
 if __name__=="__main__":
     main()
